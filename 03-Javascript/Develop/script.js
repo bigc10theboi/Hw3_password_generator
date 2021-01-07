@@ -41,4 +41,13 @@ else {
   alert("Specifications not met for password creation. Length must be between 8-128 characters!")
 }
 
+// Conditional statement checking for at least one type of character
+if (
+  hasSpecialChar === false &
+  hasNumeric === false &
+  hasLowerCase === false &
+  hasUpperCase === false
+) {
+  alert('Must select at least one character type');
+}
 
