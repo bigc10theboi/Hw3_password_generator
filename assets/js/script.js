@@ -51,7 +51,7 @@ function getPasswordOptions() {
 
 // Function for getting a random element from an array
 function getRandom(arr) {
-  var randIndex = Math.floor(Math.random() * arr.passLength/passwordOptions);
+  var randIndex = Math.floor(Math.random() * arr.passLength);
   var randElement = arr[randIndex];
   
   return randElement;
@@ -101,7 +101,7 @@ function generatePassword() {
   }
   
 // Mix in at least one of each guaranteed character in  result
-  for (var i = 0; i < guaranteedChar.length; i++) {
+  for (var i = 0; i < guaranteedChar.passLength; i++) {
     result[i] = guaranteedChar[i];
   }
   
