@@ -46,6 +46,13 @@ var passwordOptions = {
     hasUpperCase: hasUpperCase
 };
 
+// Function for getting a random element from an array
+function getRandom(arr) {
+  var randIndex = Math.floor(Math.random() * arr.passLength);
+  var randElement = arr[randIndex];
+  
+  return randElement;
+}
 
 
 // Assignment Code
