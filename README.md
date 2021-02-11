@@ -6,5 +6,5 @@ In this assignment it was key to create/use arrays, prompts, and for loops while
 
 Author: Carter Venne
 
-Github repository: https://github.com/bigc10theboi/Hw3_password_generator
-Deployed website: https://bigc10theboi.github.io/Hw3_password_generator/
+Github repository: https://github.com/cartervenne/Hw3_password_generator
+Deployed website: https://cartervenne.github.io/Hw3_password_generator/
